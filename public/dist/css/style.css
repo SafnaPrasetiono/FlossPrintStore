@@ -1,0 +1,198 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200;
+}
+
+.navbar{
+    transition: linear all 0.3s;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(60,121,132);
+    width: 100%;
+    z-index: 999;
+}
+.navstyle{
+    transition: linear all 0.2s;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.main{
+    width: 100%;
+    display: block;
+    z-index: 0;
+}
+.mainMargin{
+    display: block;
+    margin-top: 54px;
+}
+.navbar .navbar-brand,.nb2{
+    font-size: 28px;
+    margin-top: -4px;
+    font-family: 'Pacifico', cursive;
+}
+
+.footer{
+    background-color: rgb(60,121,132);
+}
+.footer .cc{
+    background-color: rgb(48, 95, 104);
+}
+
+.linking:hover{
+    text-decoration: none;
+}
+
+.icon-size{
+    width: 24px;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 4px;
+    margin: 0px;
+}
+
+.whatsapp{
+    background-color: chartreuse;
+}
+.facebook{
+    background-color: blue;
+}
+.instagram{
+    background-color: red;
+}
+
+/* profile style */
+.input-profile{
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.input-profile:focus{
+    box-shadow: unset;
+}
+.lbl-input{
+    padding-left: 6px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+/* endprofile style */
+
+
+/* formupload style */
+.form-upload{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    padding: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+}
+.form-group #file-input{
+    display: none;
+}
+.box-foto{
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+}
+.btn-foto{
+    position: absolute;
+    top: 170px;
+    left: auto;
+    right: 0;
+}
+.form-group .form-upload img{
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+    z-index: 99;
+}
+/* endformupload style */
+
+
+
+.shopping-add{
+    display: block;
+    position: absolute;
+    top: 4px;
+    margin-left: 12px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.7);
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 2px 4px;
+}
+
+.shopping-content-xs{
+    position: absolute;
+    width: 80%;
+    z-index: 999;
+    top: 55px;
+    left: 50%;
+    transform: translate(-50% , 0);
+    padding: 8px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 12px rgb(100, 100, 100);
+}
+@media(max-width: 512px){
+    .shopping-content-xs{
+        width: 92%;
+    }
+}
+
+.shopping-content-lg{
+    position: absolute;
+    width: 380px;
+    margin-top: 4px;
+    margin-left: -250px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 12px rgb(100, 100, 100);
+}
+.shopping-content-lg .up-noted{
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 268px;
+}
+
+
+/* di detail produk more link */
+.more-link,.more-link:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.listongkir , .listongkir:focus{
+    border: 0px;
+    box-shadow: unset;
+    background-color: transparent!important;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+/* notifikasi */
+.linking-notify:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* logo modify */
+.logos{
+    font-family: 'Pacifico', cursive;
+}

@@ -1,0 +1,329 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200;
+}
+
+.wrapper{
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    position: fixed;
+    height: 50px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 992;
+    background-color: rgb(50,50,50);
+}
+.navbar .navbar-brand,
+.navbar .navbar-brand .nb-font{
+    font-family: 'Pacifico', cursive;
+}
+
+.slider{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    z-index: 997;
+    background-image: linear-gradient(45deg, #0c675e, #069e90)!important;
+    transition: linear all 0.3s;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.slider::-webkit-scrollbar {
+    width: 12px;
+    margin-top: 50px;
+    position: relative;
+}
+.slider::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 0px;
+}
+.slider::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.slider .slider-brand{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+.slider .slider-brand h4,
+.slider .slider-brand h4 span{
+    font-family: 'Pacifico', cursive !important;
+}
+.slider-deactive{
+    left: 0px;
+}
+.btn-slidered,
+.btn-slidered:focus{
+    border-radius: 0px;
+    box-shadow: unset;
+    color: white;
+}
+.profile .btn-profile:focus{
+    box-shadow: unset;
+}
+.profile .img-profile{
+    margin-top: 2px;
+}
+.profile .media-body{
+    line-height: 14px;
+}
+
+.content{
+    position: relative;
+    height: auto;
+    min-height: calc(100vh - 50px);
+    margin-left: 250px;
+    top: 50px;
+    transition: linear all 0.3s;
+    z-index: 991;
+    padding-top: 0px;
+    padding-bottom: 24px;
+    background-color: rgb(240,240,240);
+}
+
+@media(max-width: 769px){
+    .slider{
+        left: -100%;
+    }
+    .slider-active{
+        left: 0px;
+    }
+
+    .content{
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+.slider-background{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 996;
+    transition: linear all 0.3s;
+    display: none;
+}
+.slider-active-back{
+    display: block;
+}
+
+.linking{
+    color: white;
+    text-decoration: none;
+}
+.linking:hover{
+    background-color: rgba(41, 112, 96, 0.2);
+    color: white;
+    text-decoration: none;
+}
+.box-icon{
+    width: 24px;
+    margin-right: 4px;
+}
+.box-icon-2{
+    width: 42px;
+    height: 42px;
+    padding: 14;
+}
+
+
+/* main menu panel slider fixed show */
+.menu-panel{
+    width: 280px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -275px;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgb(50,50,50);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.menu-profile{
+    width: 160px;
+    position: absolute;
+    top: 0px;
+    left: -155px;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgb(50,50,50);
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+@media(max-width: 769px){
+    .menu-panel{
+        width: 90%;
+        position: fixed;
+        left: 0px;
+        top: 52px;
+        margin: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+.notify-info{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 2px;
+    margin-top: 2px;
+}
+
+.notif-badge{
+    display: block;
+    position: absolute;
+    top: 0px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.7);
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 3px 4px;
+}
+
+
+/* make loader */
+.loader{
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.4);
+}
+.loader .spinners{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loader .spinners .spin-load{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: pink;
+    float: left;
+}
+
+/* profile style */
+.input-profile{
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    background-color: transparent;
+}
+.input-profile:focus{
+    box-shadow: unset;
+}
+.lbl-input{
+    padding-left: 6px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+/* endprofile style */
+
+
+/* formupload style */
+.form-upload{
+    display: flex;
+    width: 86%;
+    height: auto;
+    border-radius: 8px;
+    padding: 8px;
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+}
+.form-group #file-input{
+    display: none;
+}
+.box-foto{
+    width: 140px;
+    height: 140px;
+    display: block;
+    position: relative;
+}
+.btn-foto{
+    position: absolute;
+    top: 114px;
+    left: auto;
+    right: 0;
+}
+.form-group .form-upload img{
+    display: block;
+    width: 100%;
+}
+/* endformupload style */
+
+
+/* make css */
+#gallery{
+    min-height: 200px;
+    height: auto;
+    padding: 12px;
+    border: 2px dashed gray;
+}
+#gallery .pip{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    padding: 0!important;
+    border: 1px solid rgb(220, 220, 220);
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+#gallery .pip .imageThumb{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 996;
+}
+#gallery .pip .remove{
+    position: absolute;
+    z-index: 999;
+    margin-left: -34px;
+    margin-top: 4px;
+}
+
+@media(max-width: 768px){
+    #gallery .pip{
+        width: 46%;
+        height: 46%;
+    }
+}
+
+/* dashboard css */
+.fa-icon{
+    font-size: 64px;
+}
+@media(max-width: 767px){
+    .fa-icon{
+        font-size: 42px;
+    }
+}
+/* end dashboard css */

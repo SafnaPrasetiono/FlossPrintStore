@@ -1,0 +1,9 @@
+.btn-xs{
+    width: auto;
+}
+@media(max-width: 767px){
+    .btn-xs{
+        width: 100%;
+        display: block;
+    }
+}

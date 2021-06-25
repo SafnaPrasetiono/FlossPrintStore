@@ -1,0 +1,30 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+.text-project{
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+}
+.text-project:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content{
+
+    position: fixed;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-style{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.text-large{
+    font-size: 92px;
+}

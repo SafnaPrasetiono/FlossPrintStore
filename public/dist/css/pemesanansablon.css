@@ -1,0 +1,14 @@
+.option-control{
+    display: block;
+    height: auto;
+    width: 95%;
+    padding: 4px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation-direction: alternate;
+    border: 1px solid gray;
+}
+.custom-control-label{
+    display: block;
+}
