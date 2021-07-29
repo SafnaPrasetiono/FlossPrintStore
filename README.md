@@ -1,8 +1,5 @@
 <p align="left">
-<a href="https://flossprint.store" style="
-border-radius: 4px;
-background-image: linear-gradient(45deg, #0c675e, #069e90)!important;
-padding: 4px 6px 4px 6px;
+<a href="https://flossprint.store" style="border-radius: 4px;background-image: linear-gradient(45deg, #0c675e, #069e90)!important;padding: 4px 6px 4px 6px;
 ">
 <img src="https://github.com/SafnaPrasetiono/FlossPrintStore/blob/main/public/images/wallpaper/logoToReadMe.png" alt="Build Status" style="width : 300px;height: auto;">
 </a>
