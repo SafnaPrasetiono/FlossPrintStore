@@ -1,15 +1,15 @@
 <p align="left">
 <a href="https://flossprint.store">
-<img src="./public/images/wallpaper/logoToReadMe.ong" alt="Build Status" style="width : 300px;
+<img src="https://github.com/SafnaPrasetiono/FlossPrintStore/blob/main/public/images/wallpaper/logoToReadMe.png" alt="Build Status" style="width : 300px;
         height: auto;
         border-radius: 4px;
         background-image: linear-gradient(45deg, #0c675e, #069e90)!important;">
 </a>
 </p>
 
-## About Laravel
+## About Flossprint
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+FlossPrint Studio merupakan sebuah usaha yang bergerak dibidang konveksi khususnya dalam penjualan dan pembuatan kaos sablon. Proses pembuatan kaos yaitu dengan membuat kaos sesuai dengan pemesanan konsumen yang dapat diberikan label produk sesuai dengan pemesanan konsumen. Tidak hanya itu konsumen juga dapat berbelanja kaos yang telah disediakan dalam toko FlossPrint Studio.
 
 -   [Simple, fast routing engine](https://laravel.com/docs/routing).
 -   [Powerful dependency injection container](https://laravel.com/docs/container).
